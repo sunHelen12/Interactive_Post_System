@@ -48,7 +48,10 @@ public class Menu {
                 break;
             case 4:
                 listPosts();
-                break;                
+                break; 
+            case 7: 
+                removeLike(); 
+                break;         
             default:
                 System.out.println("Invalid Option!");
             }
